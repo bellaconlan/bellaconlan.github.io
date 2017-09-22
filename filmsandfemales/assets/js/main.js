@@ -66,12 +66,13 @@ $('.nav_all').click(function(event){
 
 $('.nav_thumbnail').click(function(event){
   $('.item').addClass('thumbnail');
+  $('.item').removeClass('full');
 });
 
 $('.nav_full').click(function(event){
   $('.item').addClass('full');
+  $('.item').removeClass('thumbnail');
 });
-
 
 
 
